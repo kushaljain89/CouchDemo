@@ -1,0 +1,14 @@
+.demo-card-square.mdl-card {
+    width: 100%;
+    height: 100%;
+}
+.demo-card-square > .mdl-card__title {
+    color: #fff;
+}
+.like-heart:hover{
+    fill: red;
+}
+
+.like-heart{
+    fill: black;
+}
