@@ -2,7 +2,7 @@
   "name": "CouchDemo",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "MONGO_URL=mongodb://admin:admin@ds063715.mlab.com:63715/couchdb meteor run"
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0",
