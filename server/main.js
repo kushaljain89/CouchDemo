@@ -1,5 +1,9 @@
+'use-strict'
+
 import { Meteor } from 'meteor/meteor';
+import { Menu } from '../imports/api/menu.js';
+import { Product } from '../imports/api/product.js';
 
 Meteor.startup(() => {
-  // code to run on server at startup
+  
 });
