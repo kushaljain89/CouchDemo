@@ -7,3 +7,7 @@ import { Product } from '../imports/api/product.js';
 Meteor.startup(() => {
   
 });
+
+var everyMinute = new Cron(function() {
+    console.log("another minute has passed!");
+}, {});
